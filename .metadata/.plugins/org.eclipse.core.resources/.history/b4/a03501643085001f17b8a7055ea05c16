@@ -1,0 +1,9 @@
+
+public class CallConstructor {
+   public static void main(String []args) {
+	   MainContructor mainContructor = new MainContructor();
+	   mainContructor.name="abhyudaya";
+	   mainContructor.roll=20;
+	   mainContructor.naming();
+   }
+}

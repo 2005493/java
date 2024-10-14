@@ -1,0 +1,13 @@
+public class MainConstructor { // Corrected class name
+    int roll;
+    String name;
+
+    // Corrected constructor
+    public MainConstructor() {
+        System.out.println("hi this is constructor");
+    }
+
+    public void naming() {
+        System.out.println(roll + " " + name);
+    }
+}

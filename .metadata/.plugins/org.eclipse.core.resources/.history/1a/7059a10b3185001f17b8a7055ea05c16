@@ -1,0 +1,22 @@
+public class CallConstructor {
+   public static void main(String[] args) {
+       MainConstructor mainConstructor = new MainConstructor(); // Corrected class name
+       mainConstructor.name = "abhyudaya";
+       mainConstructor.roll = 20;
+       mainConstructor.naming();
+   }
+}
+
+public class MainConstructor { // Corrected class name
+    int roll;
+    String name;
+
+    // Corrected constructor
+    public MainConstructor() {
+        System.out.println("hi this is constructor");
+    }
+
+    public void naming() {
+        System.out.println(roll + " " + name);
+    }
+}

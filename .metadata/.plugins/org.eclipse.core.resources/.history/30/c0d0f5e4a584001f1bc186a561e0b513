@@ -1,0 +1,8 @@
+package dev.qa;
+
+
+public class BusAnalyst {
+	 public void busanalyst() {
+	    	System.out.println("i am a analyst");
+	    }
+}

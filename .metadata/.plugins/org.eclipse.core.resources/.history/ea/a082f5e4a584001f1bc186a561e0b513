@@ -1,0 +1,7 @@
+package dev.qa;
+
+public class Testlead {
+    public void testlead() {
+    	System.out.println("i am a test lead");
+    }
+}

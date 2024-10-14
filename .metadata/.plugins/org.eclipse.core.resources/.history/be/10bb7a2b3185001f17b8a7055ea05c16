@@ -1,0 +1,9 @@
+// CallConstructor.java
+public class CallConstructor {
+   public static void main(String[] args) {
+       MainContructor mainConstructor = new MainContructor(); // Create object of MainConstructor
+       mainConstructor.name = "abhyudaya"; // Assign value to name
+       mainConstructor.roll = 20; // Assign value to roll
+       mainConstructor.naming(); // Call naming() method
+   }
+}
